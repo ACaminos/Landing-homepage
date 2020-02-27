@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Práctica 9</title>
+    <style>
+        h2{
+            text-align: center;
+            text-decoration: underline;
+        }
+        body{
+            background-color: darkseagreen;
+            }
+        header{
+                background-color: black;
+                text-align: center;
+                color: orangered;
+                padding: 1%;
+              }
+        nav{
+            background-color: white;
+            text-align: center;
+            padding-top: 1%;
+            }
+        section{
+            width: 60%;
+            float: left;
+            border: 3px solid grey;
+                }
+        
+        aside{
+            border: 3px solid grey;
+            width: 38%;
+            float: right;
+        }
+        footer{
+            
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Universidad Fulanito</h1></header>
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Institución</a> |
+        <a href="#">Carreras</a> |
+        <a href="#">Inscripciones</a> |
+        <a href="#">Deportes</a> |
+        <a href="#">Contacto</a>
+    </nav>
+<hr>
+
+<section>
+    <article>
+        <div class="inscripciones">
+            <h2>Inicio de Inscripciones</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis laboriosam omnis odio dolorem doloribus rem quae, iusto minus voluptates quam, eaque rerum fuga nemo dolorum temporibus repudiandae eos hic sapiente.</p>
+            <hr>
+        </div>
+    </article>
+    <article>
+        <div class="clases">
+            <h2>Inicio de clases</h2>
+            <p>Dolor non dignissimos similique exercitationem odio corporis perferendis quisquam sapiente earum! Quibusdam aperiam quae tenetur omnis excepturi qui error explicabo est architecto!</p>
+            <hr>
+        </div>
+    </article>
+    <article>
+        <div class="carreraLarga">
+            <h2>Carreras Largas</h2>
+            <p>Placeat mollitia sed eaque tempora beatae soluta repellendus, ex repudiandae tempore doloribus odit asperiores voluptatibus veritatis et deleniti perspiciatis cupiditate maxime fugit!</p>
+            <hr>
+        </div>
+        </article>
+    <article>
+        <div class="carreraCorta">
+            <h2>Carreras Cortas</h2>
+            <p>Nesciunt, nihil eveniet. Voluptate, nostrum quia hic tempore sint facere doloremque voluptatum, ad a obcaecati, eos consequuntur magnam labore. Assumenda, commodi sint.</p>
+            <hr>
+        </div>
+    </article>
+    <article>
+        <div class="cursos">
+            <h2>Cursos</h2>
+            <p>Quis, distinctio inventore rem rerum eius in qui nesciunt nostrum labore unde accusantium dolorum quidem hic! Vero delectus nisi a reiciendis incidunt?</p>
+        </div>
+        </article>
+</section>
+<aside>
+    <div class="aside">
+        <header>Ultimas Noticias</header>
+            <article>
+                <h2>Inicio de clases ingresantes</h2>
+                <p>Las clases estaran iniciando la primera semana de marzo para los alumnos que cursen el primer año.</p>
+                <p>Los dias, horarios de cursada y aula estaran publicados en el campus.</p>
+            </article>
+            <hr>
+            <article>
+                <h2>Inicio de clases generales</h2>
+                <p>Las clases estaran iniciando la segunda semana de marzo para los alumnos que cursen el segundo año en adelante</p>
+                <p>Los dias, horarios de cursada y aula seran los mismos.</p>
+            </article>
+    </div>
+
+</aside>
+
+<footer>
+    <table style="width: 100%;">
+        <tr>
+            <th>Contacto</th>
+            <th>Redes sociales</th>
+            <th>Campus</th>
+        </tr>
+        <tr>
+            <td><img src="https://lh3.googleusercontent.com/proxy/212dsS-qp_YG_M-7wZ02OZEYqqPTdBsHjPbELFXRxQoAonyvHrLjIqr_7lj29gMtPltHjbKvZUA1tSU7cwNlQxHITZtBFcjTKZYGAm-FJg" alt="telefono" width="10px" height="10px"> +54-4699-2356</td>
+            <td><img src="https://i.pinimg.com/originals/ef/b5/d9/efb5d90eeb07bb5914f094007da4c2f7.png" alt="Facebook" width="10px" height="10px"> UniversidadFulanito</td>
+            <td><a href="#">Campus Fulanito</a></td>
+        </tr>
+        <tr>
+            <td><img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/email-1738468-1475283.png" alt="mail" width="13px" height="13spx"> UniversidadFulanito@yahoo.com.ar</td>
+            <td><img src="https://heysocialgeek.com/wp-content/uploads/2018/10/instagram-4.png" alt="instagram" width="10px" height="10px"> UfulanitoOK</td>
+
+        </tr>
+    </table>
+    <br>
+</footer>
+</body>
+</html>
